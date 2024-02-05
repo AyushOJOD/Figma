@@ -62,7 +62,7 @@ const Home = ({ state }) => {
             </div >
             {/* Button */}
             <div className='flex flex-col bg-white p-6 px-10 rounded-lg gap-4' >
-                <GoChecklist className='text-5xl' />
+                <GoChecklist className='text-5xl text-red-800' />
                 <div className='flex justify-between gap-4'>
                     Recipe Management
                     <button className='text-gray-400'>
