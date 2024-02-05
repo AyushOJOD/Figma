@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Recipe = ({ email1, email2, email3 }) => {
+const Recipe = ({ email1, email2, email3, name }) => {
     return (
         <div className='min-h-screen flex items-center justify-center bg-gray-400'>
             <div className='bg-white p-6 rounded-md'>
@@ -25,7 +25,7 @@ const Recipe = ({ email1, email2, email3 }) => {
                         <tbody>
                             <tr className="text-black">
                                 <td scope="row" className="px-6 py-4 whitespace-nowrap ">
-                                    Ayush
+                                    {name}
                                 </td>
                                 <td className="px-6 py-4">
                                     {email1}

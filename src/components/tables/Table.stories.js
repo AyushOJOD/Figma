@@ -10,5 +10,6 @@ export const Primary = {
     email1: "ayush@gmail.com",
     email2: "json@gmail.com",
     email3: "xyz@gmail.com",
+    name: "Ayush",
   },
 };
