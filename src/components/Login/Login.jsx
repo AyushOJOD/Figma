@@ -25,16 +25,16 @@ const Login = ({ Page }) => {
                         Select Number of Locations
                     </p>
                     <div className='flex gap-4 items-center'>
-                        <div className='bg-gray-300 p-4 rounded-md'>
+                        <div className='bg-gray-300 p-4 rounded-md cursor-pointer'>
                             1-10
                         </div>
-                        <div className='bg-gray-300 p-4 rounded-md'>
+                        <div className='bg-gray-300 p-4 rounded-md cursor-pointer'>
                             10-50
                         </div>
-                        <div className='bg-gray-800 text-white p-4 rounded-md'>
+                        <div className='bg-gray-800 text-white p-4 rounded-md cursor-pointer'>
                             50-100
                         </div>
-                        <div className='bg-gray-300 p-4 rounded-md'>
+                        <div className='bg-gray-300 p-4 rounded-md cursor-pointer'>
                             150+
                         </div>
                     </div>
