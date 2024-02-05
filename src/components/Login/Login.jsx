@@ -11,9 +11,9 @@ const Login = ({ Page }) => {
                     Welcome Onboard
                 </h3>
                 <div className='flex flex-col items-center gap-6'>
-                    <input className='bg-gray-100 outline-none border-gray-400 border-b-2 p-4 px-8' placeholder='Your name' />
-                    <input className='bg-gray-100 outline-none border-gray-400 border-b-2 p-4 px-8' placeholder='Company name' />
-                    <select className='bg-gray-100 outline-none text-gray-900 w-full border-gray-400 border-b-2 p-4 px-8' placeholder='Select Industry' >
+                    <input className='bg-[#E7E0EC] outline-none border-gray-400 border-b-2 p-4 px-8' placeholder='Your name' />
+                    <input className='bg-[#E7E0EC] outline-none border-gray-400 border-b-2 p-4 px-8' placeholder='Company name' />
+                    <select className='bg-[#E7E0EC] outline-none text-gray-900 w-full border-gray-400 border-b-2 p-4 px-8' placeholder='Select Industry' >
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
