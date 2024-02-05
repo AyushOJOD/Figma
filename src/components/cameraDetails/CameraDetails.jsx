@@ -134,7 +134,7 @@ const CmaeraDetails = ({ Location }) => {
                             <p className='text-gray-400'>Recording : Today , 4:00 pm </p>
                         </div>
                         <div className='border-[0.5px] flex rounded-xl flex-col gap-1 p-4 w-[30%] min-h-[200px]'>
-                            <img src={img2} className=' rounded-xl aspect-square' alt="" />
+                            <Image src={img2} className=' rounded-xl aspect-square' alt="" />
                             <h1 className='text-xl font-medium'>
                                 Recording_1123
                             </h1>
